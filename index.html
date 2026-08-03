@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+        #tabuleiro {
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        }
+
+        button {
+            width: 100px;
+            height: 100px;
+            font-size: 32px;
+            font-weight: bold;
+            color: black;
+            border: 1px solid gray;
+
+        }
+
+        button:hover {
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        #mensagem {
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #reiniciar {
+            display: inline;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-top: 30px;
+            font-size: 18px;
+            height: 80px;
+            width:90px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="mensagem">Vez do jogador X</div>
+        <div id="tabuleiro">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <button id="reiniciar">Reiniciar Jogo</button>
+    </div>
+
+    <script src="logica.js"></script>
+</body>
+
+</html>
