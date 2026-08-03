@@ -7,12 +7,6 @@ O objetivo deste projeto foi praticar manipulação do DOM, lógica de programa�
 
 ---
 
-## 🚀 Demonstração
-
-> *(Adicione aqui o link do GitHub Pages quando publicar o projeto.)*
-
----
-
 # ✨ Funcionalidades
 
 * ✅ Partida entre dois jogadores
